@@ -1,0 +1,24 @@
+HC3 Dataset Summary Statistics
+==================================================
+Total records : 48,644
+Columns       : ['question', 'human_answers', 'chatgpt_answers', 'index', 'source', 'human_text', 'chatgpt_text', 'human_len', 'chatgpt_len']
+
+Row count per domain (source):
+    reddit_eli5                         17,112 rows
+    finance                              3,933 rows
+    medicine                             1,248 rows
+    open_qa                              1,187 rows
+    wiki_csai                              842 rows
+
+Average text length (characters):
+    Human answers  : 1650.6 chars
+    ChatGPT answers: 1126.2 chars
+
+Average text length per domain:
+             human_len  chatgpt_len
+source                             
+finance         1001.7       1395.3
+medicine         505.9       1230.2
+open_qa          190.9       2173.8
+reddit_eli5     2001.2        980.9
+wiki_csai       1312.2       1192.2

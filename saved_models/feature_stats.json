@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "description": "Per-class mean/std of scaled features + Cohen's d (Human - AI)",
+    "scaler": "C:\\Users\\aaa\\Desktop\\mainproject\\saved_models\\scaler.pkl",
+    "n_human": 18370,
+    "n_ai": 18370
+  },
+  "avg_sent_len": {
+    "human_mean": -0.387263,
+    "human_std": 0.984415,
+    "ai_mean": 0.387263,
+    "ai_std": 0.855029,
+    "cohens_d": -0.8401
+  },
+  "std_sent_len": {
+    "human_mean": -0.097971,
+    "human_std": 0.971295,
+    "ai_mean": 0.097971,
+    "ai_std": 1.018576,
+    "cohens_d": -0.1969
+  },
+  "num_sentences": {
+    "human_mean": -0.073059,
+    "human_std": 1.318875,
+    "ai_mean": 0.073059,
+    "ai_std": 0.500003,
+    "cohens_d": -0.1465
+  },
+  "ttr": {
+    "human_mean": 0.608271,
+    "human_std": 0.953567,
+    "ai_mean": -0.608271,
+    "ai_std": 0.592276,
+    "cohens_d": 1.5327
+  },
+  "avg_word_len": {
+    "human_mean": -0.174882,
+    "human_std": 1.079043,
+    "ai_mean": 0.174882,
+    "ai_std": 0.880116,
+    "cohens_d": -0.3552
+  },
+  "noun_ratio": {
+    "human_mean": -0.212848,
+    "human_std": 1.059752,
+    "ai_mean": 0.212848,
+    "ai_std": 0.886804,
+    "cohens_d": -0.4357
+  },
+  "verb_ratio": {
+    "human_mean": 0.005111,
+    "human_std": 1.136334,
+    "ai_mean": -0.005111,
+    "ai_std": 0.841904,
+    "cohens_d": 0.0102
+  },
+  "adj_ratio": {
+    "human_mean": -0.14072,
+    "human_std": 1.099279,
+    "ai_mean": 0.14072,
+    "ai_std": 0.86723,
+    "cohens_d": -0.2843
+  },
+  "adv_ratio": {
+    "human_mean": 0.327021,
+    "human_std": 1.164867,
+    "ai_mean": -0.327021,
+    "ai_std": 0.655208,
+    "cohens_d": 0.6921
+  },
+  "pron_ratio": {
+    "human_mean": 0.211611,
+    "human_std": 1.134452,
+    "ai_mean": -0.211611,
+    "ai_std": 0.789661,
+    "cohens_d": 0.433
+  },
+  "comma_freq": {
+    "human_mean": -0.119651,
+    "human_std": 1.187456,
+    "ai_mean": 0.119651,
+    "ai_std": 0.749281,
+    "cohens_d": -0.241
+  },
+  "period_freq": {
+    "human_mean": 0.284627,
+    "human_std": 1.300419,
+    "ai_mean": -0.284627,
+    "ai_std": 0.383389,
+    "cohens_d": 0.5938
+  },
+  "question_freq": {
+    "human_mean": 0.110711,
+    "human_std": 1.365957,
+    "ai_mean": -0.110711,
+    "ai_std": 0.331295,
+    "cohens_d": 0.2228
+  },
+  "avg_paragraph_len": {
+    "human_mean": -0.152843,
+    "human_std": 1.315316,
+    "ai_mean": 0.152843,
+    "ai_std": 0.472577,
+    "cohens_d": -0.3093
+  },
+  "fk_grade": {
+    "human_mean": -0.349981,
+    "human_std": 1.076938,
+    "ai_mean": 0.349981,
+    "ai_std": 0.771574,
+    "cohens_d": -0.7472
+  },
+  "flesh_ease": {
+    "human_mean": 0.321368,
+    "human_std": 1.028319,
+    "ai_mean": -0.321368,
+    "ai_std": 0.857964,
+    "cohens_d": 0.6787
+  }
+}

@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python byte-code & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Development / Scratch files
+scratch/
+
+# Test & Temporary PDFs generated during testing
+test_*.pdf
+test_document.pdf
+
+# Large model checkpoint files (>100MB) excluded from direct git tracking
+# (Note: hybrid_model.pt is tracked via Git LFS)
+saved_models/roberta_baseline_final/model.safetensors
+*.safetensors
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+*.pt
